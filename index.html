@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/scss/style.css">
+</head>
+
+<body>
+
+
+
+    <div class="device">
+        <div class="device__status">
+            <!-- <div class="status-left">
+                <div class="c-timer">
+                    <span class="c-timer__hours"></span>
+                    <span>:</span>
+                    <span class="c-timer__minute"></span>
+                </div>
+            </div> -->
+            <div class="status-right">
+                <div class="status-icon">
+                    <i class="bi bi-alarm"></i>
+                </div>
+                <div class="status-icon">
+                    <i class="bi bi-reception-4"></i>
+                </div>
+                <div class="status-icon">
+                    <i class="bi bi-battery-half"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="device__body">
+            <div class="search-pannel">
+                <div class="search-pannel__container">
+                    <input type="text" class="search-pannel__input" placeholder="Search location">
+                    <button class="cta-search"><i class="bi bi-search"></i></button>
+                </div>
+            </div>
+
+
+            <div class="location">
+                <span class="location-city">Kochi</span>,
+                <span class="location-country">Kochi</span>
+            </div>
+            <div class="date-info">
+                <span class="date-info__day">Monday</span>,
+                <span class="date-info__date">01</span>
+                <span class="date-info__month">No</span>
+                <span class="date-info__year">22</span>
+            </div>
+
+            <div class="weather-icon">
+                <img src="" alt="">
+            </div>
+
+            <div class="weather-data">
+                <div class="weather-data__temp">
+                    <span class="in-degree">00</span>
+                    &deg;C
+                </div>
+                <div class="weather-data__desc">
+                    cloud
+                </div>
+            </div>
+
+            <div class="weather-now">
+                <div class="weather-data__row">
+                    <div class="weather-now__colums">
+
+                        <div class="data-grid">
+                            <div class="data-grid__icon">
+                                <i class="bi bi-thermometer"></i>
+                            </div>
+                            <div class="data-grid__content">
+                                <label class="data-label" for="">Feels Like</label>
+                                <div class="data-text temp-feel">
+                                    <span>00</span>
+                                    &deg;C
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="weather-now__colums">
+                        <div class="data-grid">
+                            <div class="data-grid__icon">
+                                <i class="bi bi-droplet"></i>
+                            </div>
+                            <div class="data-grid__content">
+                                <label class="data-label" for="">Humidity</label>
+                                <div class="data-text temp-humidity">
+                                    <span>00</span>%
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="weather-now__colums">
+                        <div class="data-grid">
+                            <div class="data-grid__icon">
+                                <i class="bi bi-wind"></i>
+                            </div>
+                            <div class="data-grid__content">
+                                <label class="data-label" for="">Wind</label>
+                                <div class="data-text wind-speed">
+                                    <span>00</span> km/h
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="weather-now__colums">
+                        <div class="data-grid">
+                            <div class="data-grid__icon">
+                                <i class="bi bi-thermometer-sun"></i>
+                            </div>
+                            <div class="data-grid__content">
+                                <label class="data-label" for="">Pressure</label>
+                                <div class="data-text temp-pressure">
+                                    <span>00</span> hPa
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/script/app.js"></script>
+</body>
+
+</html>
