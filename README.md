@@ -1,4 +1,4 @@
-# weather-app
+# weather-app-javascript
 
 It's a simple app created using HTML, SCSS and Javascript to check the weather conditions of a place using the OpenWeather API.
 
