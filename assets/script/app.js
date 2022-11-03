@@ -8,38 +8,12 @@ const dateInfo = {
     month: months[today.getMonth()],
     year: today.getFullYear(),
 }
-
-
-
-
-// Clock Timer
-function clockTimer() {
-    const today = new Date();
-    let hours = today.getHours();
-    let minutes = today.getMinutes();
-
-    document.querySelector('.c-timer__hours').textContent = hours;
-    document.querySelector('.c-timer__minute').textContent = minutes;
-    setTimeout(clockTimer, 1000);
-}
-
-// Check count lessthan 0
-function checkTime(i) {
-    if (i < 10) { i = "0" + i };
-    return i;
-}
-
-// Check count lessthan 0
-function checkTime(i) {
-    if (i < 10) { i = "0" + i };
-    return i;
-}
-
 // Fetch Geolocation
 function fetchGeoLocation() {
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(fetchWeatherInfo, handleError);
     }
+    console.log('fdfgf')
 }
 // Error Handler
 function handleError(error) {
